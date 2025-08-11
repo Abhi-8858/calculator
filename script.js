@@ -5,7 +5,7 @@ function addDigitOrOperator(digit){
     let previous_value = document.getElementById('result').value
     let last = previous_value.charAt(previous_value.length-1)
     if((last == "+" || last =="-"||last=="*"||last=="/"||last=="**"||last=='.')&&(digit=="+"||digit=="-"||digit=="*"||digit=="/"||digit=="**" || digit=='.')){
-        alert("Idiot don't write two operators")
+        alert("don't write two operators")
     }
     else{
          document.getElementById('result').value = (previous_value+digit)
